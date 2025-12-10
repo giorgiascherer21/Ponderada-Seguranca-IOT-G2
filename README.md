@@ -58,3 +58,6 @@ A partir dessa implementação, o projeto visa:
 ✔ Avaliar riscos associados ao controle remoto de hardware via rede Wi-Fi
 ✔ Testar exploração de falhas como injeção de comandos e spoofing de acesso
 ✔ Apresentar melhorias para aumentar a proteção contra ataques reais
+
+# Ataques: 
+Durante a análise do servidor web rodando no ESP32, foram exploradas diversas vulnerabilidades de segurança que permitiram a realização de ataques bem-sucedidos. Entre eles, destacam-se: tentativa de adivinhação e exploração de falhas de autenticação, múltiplas requisições simultâneas para estressar o sistema (DoS simplificado), varredura de endpoints expostos e interceptação/observação de respostas para identificar comportamentos inseguros. A partir desses testes, foi possível demonstrar que a aplicação não implementa controle de acesso robusto nem mecanismos de mitigação, permitindo que um invasor tenha acesso ao sistema mesmo sem credenciais válidas.
