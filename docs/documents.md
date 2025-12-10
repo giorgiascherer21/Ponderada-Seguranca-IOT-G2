@@ -10,9 +10,16 @@ O código analisado permite o controle de dois pinos GPIO (26 e 27) através de 
 
 A análise estática do código-fonte (`esp32_webserver_code.ino`) revelou duas vulnerabilidades principais (pontos fracos) decorrentes de práticas de programação inseguras, comuns em ambientes de prototipagem e tutoriais.
 
+
+
+<img src="../assets/tabela-ataques-e-vulnerabilidadess.jpeg" alt=" Tabela: Ataques & Vulnerabilidades" width="600">
+
+
 ### 2.1. Vulnerabilidade 1: Falta de Autenticação e Autorização (CWE-287)
 
 O servidor web processa comandos de controle de GPIOs diretamente com base na URL da requisição HTTP, sem qualquer verificação de identidade ou permissão do cliente.
+
+
 
 **Evidência no Código:**
 A lógica de controle dentro da função `loop()` é executada imediatamente após a recepção do cabeçalho HTTP:
