@@ -54,7 +54,7 @@ Esse sistema possibilita o acionamento de dispositivos (como LEDs ou relés) usa
 
 A partir dessa implementação, o projeto visa:
 
+
 ✔ Avaliar riscos associados ao controle remoto de hardware via rede Wi-Fi
 ✔ Testar exploração de falhas como injeção de comandos e spoofing de acesso
 ✔ Apresentar melhorias para aumentar a proteção contra ataques reais
----
