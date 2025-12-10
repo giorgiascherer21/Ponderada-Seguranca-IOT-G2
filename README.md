@@ -1,2 +1,36 @@
-# Ponderada-Seguran-a-IOT-G2
-Este repositório contém a análise e execução de testes de segurança (pentest) em uma aplicação IoT utilizando o ESP32. A atividade segue o roteiro proposto em aula sobre vulnerabilidades, riscos e contramedidas em IoT.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=blur&height=470&color=0:0044ff,50:0077ff,100:00aaff&text=ESP32%20IoT%20Pentest&textBg=false&section=header&reversal=true&fontColor=FFFFFF&fontSize=40&fontAlign=50&animation=fadeIn&desc=Segurança%20em%20IoT&descAlign=70&descSize=20" 
+  alt="ESP32 IoT Pentest Banner" width="700"/>
+</p>
+
+
+---
+
+<p align="center">
+  Este repositório contém a análise e execução de testes de segurança (pentest) em uma aplicação IoT utilizando o ESP32. A atividade segue o roteiro proposto em aula sobre vulnerabilidades, riscos e contramedidas em IoT.
+</p>
+
+---
+
+<p align="center">
+  <img src="./assets/vid.gif" width="450" alt="Demo GIF do ESP32">
+</p>
+
+
+## 📂 Estrutura do Repositório
+
+A organização deste projeto segue as entregas solicitadas na atividade ponderada:
+
+```
+PONDERADA-SEGURANCA-IOT/
+ ├─ assets/              → GIFs, imagens  materiais                              
+ │
+ ├─ docs/                → Relatório técnico da atividade
+ │   └─ documents.md     → Documento com análise, ataques e tabela de riscos
+ │
+ ├─ evidencias/          → Prints e provas da análise 
+ │
+ ├─ src/                 → Código-fonte do servidor web no ESP32 (análise estática)
+ │
+ └─ README.md            → Este arquivo com visão geral do projeto
+```
